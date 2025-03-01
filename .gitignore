@@ -1,0 +1,34 @@
+# Abaikan semua file XML asli
+Data/*.xml
+
+# Abaikan folder hasil modifikasi
+Data/modified/
+
+# Abaikan folder logs dan semua file log
+Data/logs/
+Data/logs/*.log
+
+# Abaikan dependensi Python jika ada virtual environment
+venv/
+.env
+
+# Abaikan file cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Abaikan file editor
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Abaikan hasil eksekusi sementara
+*.bak
+*.tmp
+*.log
+
+# Abaikan file sistem khusus Mac dan Windows
+.DS_Store
+Thumbs.db
