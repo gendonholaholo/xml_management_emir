@@ -43,3 +43,4 @@ for filename in os.listdir(source_dir):
             logging.error(f"Error saat memproses {filename}: {e}")
 
 print("\nProses selesai! Semua file telah disimpan di folder 'modified'.")
+print("\nProses selesai! Semua file telah disimpan di folder 'modified'.")
